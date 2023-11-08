@@ -1,13 +1,16 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Armata&display=swap');
+*{
+  padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  list-style: none;
+  text-decoration: none;
+  font-family: 'Armata', sans-serif;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root{
+  --body-color: #fff;
+  --primary-color: #ff002b;
+  --text-color: #000;
+}
+body {
+  width: 100%;
 }
